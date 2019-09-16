@@ -19,17 +19,26 @@ namespace Move_PIcture
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(pictureBox2.Location.X-10, pictureBox2.Location.Y);
+            if (pictureBox2.Location.X > 0)
+            {
+                pictureBox2.Location = new Point(pictureBox2.Location.X - 5, pictureBox2.Location.Y);
+            }
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+       private void Button2_Click(object sender, EventArgs e)
         {
             pictureBox2.Location = new Point(pictureBox2.Location.X, pictureBox2.Location.Y-10);
         }
 
-        private void Button4_Click(object sender, EventArgs e)
+        private async void Button4_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(pictureBox2.Location.X+12, pictureBox2.Location.Y);
+           if(pictureBox2.Location.X + 5 < ClientRectangle.Width - pictureBox2.Width)
+            {
+                pictureBox2.Location = new Point(pictureBox2.Location.X + 5, pictureBox2.Location.Y);
+                await Task.Delay(500);
+                pictureBox2.Location = new Point(pictureBox2.Location.X - 5, pictureBox2.Location.Y);
+                await Task.Delay(500);
+            }
         }
 
         private void Button3_Click(object sender, EventArgs e)

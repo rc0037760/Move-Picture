@@ -50,7 +50,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Move_PIcture.Properties.Resources._2015_mclaren_650s_gt3_wide;
-            this.pictureBox2.Location = new System.Drawing.Point(486, 222);
+            this.pictureBox2.Location = new System.Drawing.Point(452, 167);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(167, 122);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -59,7 +59,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(880, 222);
+            this.button1.Location = new System.Drawing.Point(427, 109);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(880, 278);
+            this.button2.Location = new System.Drawing.Point(496, 80);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(370, 64);
+            this.button3.Location = new System.Drawing.Point(496, 138);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 4;
@@ -89,7 +89,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(544, 109);
+            this.button4.Location = new System.Drawing.Point(567, 109);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 5;
